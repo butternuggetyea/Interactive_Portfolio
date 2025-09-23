@@ -37,6 +37,8 @@ public class PlayerCameraMovement : MonoBehaviour
     private Camera cam;
     private bool cameraEnabled = true; // Added camera enabled state
 
+    public Camera PcCamera;
+
     public static PlayerCameraMovement playerCamera;
     private void Awake()
     {
@@ -54,6 +56,7 @@ public class PlayerCameraMovement : MonoBehaviour
     public void EnableCamera()
     {
         cameraEnabled = true;
+        PcCamera.enabled = false;
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
     }
@@ -65,6 +68,7 @@ public class PlayerCameraMovement : MonoBehaviour
     public void DisableCamera(bool showCursor = true)
     {
         cameraEnabled = false;
+        PcCamera.enabled = true;
         if (showCursor)
         {
             Cursor.lockState = CursorLockMode.None;

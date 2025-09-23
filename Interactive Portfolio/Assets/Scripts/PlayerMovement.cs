@@ -47,7 +47,7 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody rb;
     private CapsuleCollider col;
     private Transform orientation;
-    private Animator animator;
+    public static Animator animator;
 
     public static PlayerMovement playerMovement { get; private set; }
 
@@ -64,10 +64,14 @@ public class PlayerMovement : MonoBehaviour
     public void EnableMovement()
     {
         MovementEnabled = true;
+        col.enabled = true;
+        rb.constraints = RigidbodyConstraints.FreezeRotation;
     }
     public void DisableMovement()
     {
         MovementEnabled = false;
+        col.enabled = false;
+        rb.constraints = RigidbodyConstraints.FreezeAll;
     }
     private void Update()
     {

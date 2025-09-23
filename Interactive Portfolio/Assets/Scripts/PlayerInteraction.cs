@@ -2,11 +2,14 @@ using UnityEngine;
 
 public class PlayerInteraction : MonoBehaviour
 {
-    float _interactDistance = 10;
+    public float _interactDistance = 10;
     public LayerMask _interactLayer;
+
+    public GameObject interactPanel;
 
     private void Update()
     {
+        GetInput();
         
     }
 
@@ -16,6 +19,7 @@ public class PlayerInteraction : MonoBehaviour
         {
             CastRay();
         }
+       
     }
 
     private void CastRay() 
@@ -25,8 +29,11 @@ public class PlayerInteraction : MonoBehaviour
 
         if (Physics.Raycast(rayOrigin, rayDirection, out RaycastHit hitInteractable, _interactDistance, _interactLayer)) 
         {
+            hitInteractable.transform.GetComponent<InteractableObject>().Interact();
+            Debug.Log("Hit Ray");
 
         }
+
 
     }
 

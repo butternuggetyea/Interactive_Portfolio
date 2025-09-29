@@ -11,4 +11,9 @@ public class ButtonUI : MonoBehaviour
         button = GetComponent<Button>();
     }
 
+    public void OnClick() 
+    {
+        button.onClick.Invoke();
+    }
+
 }

@@ -1,7 +1,11 @@
+using TMPro;
 using UnityEngine;
 
 public class OfficeChair : InteractableObject
 {
+
+    public TMP_Text _infoText;
+
     public override void Interact()
     {
         SitDown();
@@ -11,6 +15,9 @@ public class OfficeChair : InteractableObject
     public Transform _exitPos;
     private void SitDown() 
     {
+        _infoText.gameObject.SetActive(true);
+        _infoText.text = "Press Q to stand up";
+
       _player = PlayerMovement.animator.gameObject;
         PlayerCameraMovement.playerCamera.DisableCamera();
         PlayerMovement.playerMovement.DisableMovement();
@@ -30,6 +37,7 @@ public class OfficeChair : InteractableObject
         if (_player == null) { return; }
         if (Input.GetKeyDown(KeyCode.Q))
         {
+            _infoText.gameObject.SetActive(false);
             PlayerMovement.playerMovement.EnableMovement();
             PlayerCameraMovement.playerCamera.EnableCamera();
             _player.transform.position = _exitPos.position;

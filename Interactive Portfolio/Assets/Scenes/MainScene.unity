@@ -3978,7 +3978,7 @@ MonoBehaviour:
   _FPCamera: {fileID: 330585545}
   orientation: {fileID: 4495934017277347911}
   playerBody: {fileID: 4495934017277347911}
-  playerMovement: {fileID: 1637805633}
+  playerMovement: {fileID: 4495934017287202802}
   _handCamera: {fileID: 0}
   mouseSensitivity: 250
   invertY: 0
@@ -10637,6 +10637,7 @@ GameObject:
   - component: {fileID: 1073446060}
   - component: {fileID: 1073446059}
   - component: {fileID: 1073446061}
+  - component: {fileID: 1073446062}
   m_Layer: 5
   m_Name: RawImage
   m_TagString: Untagged
@@ -10730,10 +10731,27 @@ VideoPlayer:
   m_ControlledAudioTrackCount: 1
   m_PlayOnAwake: 1
   m_SkipOnDrop: 1
-  m_Looping: 1
+  m_Looping: 0
   m_WaitForFirstFrame: 1
   m_FrameReadyEventEnabled: 0
   m_VideoShaders: []
+--- !u!114 &1073446062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1073446057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d5b65329cca13a4880abdcb3c8b8f42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  _videoPlayer: {fileID: 0}
+  _clips:
+  - {fileID: 32900000, guid: fad845e8c34153f4a929d9d8f2091e13, type: 3}
+  - {fileID: 32900000, guid: 32d7b1f8790549249b4db50f2d60457d, type: 3}
+  - {fileID: 32900000, guid: e57bc81a1e249fc45a3317992136cd25, type: 3}
 --- !u!1 &1074092871
 GameObject:
   m_ObjectHideFlags: 0
@@ -15329,45 +15347,6 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 128
   interactPanel: {fileID: 0}
---- !u!114 &1637805633
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4495934017277711463}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb68d84de55bdcd49b08585c2ddf7c18, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
-  walkSpeed: 52.5
-  sprintSpeed: 16
-  groundDrag: 2.5
-  slopeForce: 10
-  maxSlopeAngle: 45
-  maxStepHeight: 0.3
-  stepSearchDistance: 0.1
-  stepForce: 10
-  stepCheckOffset: 0.05
-  jumpForce: 25
-  airMultiplier: 0.4
-  jumpCooldown: 0.25
-  jumpGravityScale: 2
-  fallGravityScale: 2.5
-  lowJumpMultiplier: 2
-  groundMask:
-    serializedVersion: 2
-    m_Bits: 8
-  interactMask:
-    serializedVersion: 2
-    m_Bits: 2
-  interiorGround:
-    serializedVersion: 2
-    m_Bits: 32
-  groundCheckDistance: 0
-  groundCheckRadius: 0.32
-  wallCheckDistance: 0.6
 --- !u!54 &1637805634
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -22742,10 +22721,10 @@ GameObject:
   m_Component:
   - component: {fileID: 4495934017277347911}
   - component: {fileID: 4495934017287202801}
-  - component: {fileID: 1637805633}
   - component: {fileID: 1637805632}
   - component: {fileID: 1637805630}
   - component: {fileID: 1637805634}
+  - component: {fileID: 4495934017287202802}
   m_Layer: 6
   m_Name: Player
   m_TagString: Untagged
@@ -25184,6 +25163,45 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &4495934017287202802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4495934017277711463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c98c3915c13c2f438762243985c007e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
+  walkSpeed: 52
+  sprintSpeed: 8
+  groundDrag: 6
+  slopeForce: 10
+  maxSlopeAngle: 45
+  maxStepHeight: 0.3
+  stepSearchDistance: 0.1
+  stepForce: 10
+  stepCheckOffset: 0.05
+  jumpForce: 12
+  airMultiplier: 0.4
+  jumpCooldown: 0.25
+  jumpGravityScale: 2
+  fallGravityScale: 2.5
+  lowJumpMultiplier: 2
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 8
+  interactMask:
+    serializedVersion: 2
+    m_Bits: 0
+  interiorGround:
+    serializedVersion: 2
+    m_Bits: 0
+  groundCheckDistance: 0
+  groundCheckRadius: 0.32
+  wallCheckDistance: 0.6
 --- !u!23 &4680560345054973837
 MeshRenderer:
   m_ObjectHideFlags: 0

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: f83a8ad8c5ba00443bae9d439c548849
+timeCreated: 1508265559
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 93057
+  packageName: Lighting Box 2 Next-Gen Lighting Solution
+  packageVersion: 2.9.9.3
+  assetPath: Assets/LightingBox2/Shaders/Nature/Snow_Leave_Standard.shader
+  uploadId: 748623

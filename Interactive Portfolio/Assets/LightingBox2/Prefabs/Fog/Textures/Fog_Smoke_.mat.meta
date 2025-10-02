@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0ba7ffe63c989c246b12d24c200d60f5
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 93057
+  packageName: Lighting Box 2 Next-Gen Lighting Solution
+  packageVersion: 2.9.9.3
+  assetPath: Assets/LightingBox2/Prefabs/Fog/Textures/Fog_Smoke_.mat
+  uploadId: 748623

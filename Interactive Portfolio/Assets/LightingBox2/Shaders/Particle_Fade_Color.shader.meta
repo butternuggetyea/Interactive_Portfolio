@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: c997b1993df67ae42901a9729870ad13
+timeCreated: 1497006869
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 93057
+  packageName: Lighting Box 2 Next-Gen Lighting Solution
+  packageVersion: 2.9.9.3
+  assetPath: Assets/LightingBox2/Shaders/Particle_Fade_Color.shader
+  uploadId: 748623

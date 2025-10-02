@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d539b862468e1df4f947ba9592350cbf
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 93057
+  packageName: Lighting Box 2 Next-Gen Lighting Solution
+  packageVersion: 2.9.9.3
+  assetPath: Assets/LightingBox2/Sample/Terrain/Profiles/Lighting_Profile_LB_Terrains_Sample.asset
+  uploadId: 748623

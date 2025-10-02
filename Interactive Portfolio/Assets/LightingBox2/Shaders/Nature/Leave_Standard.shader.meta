@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: b22327c1c982ac4499488737e91c9c91
+timeCreated: 1509179609
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 93057
+  packageName: Lighting Box 2 Next-Gen Lighting Solution
+  packageVersion: 2.9.9.3
+  assetPath: Assets/LightingBox2/Shaders/Nature/Leave_Standard.shader
+  uploadId: 748623

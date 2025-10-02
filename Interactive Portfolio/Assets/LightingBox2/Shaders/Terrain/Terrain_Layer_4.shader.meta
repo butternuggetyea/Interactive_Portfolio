@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: d6e18eb11a557db468b9a994b4a44c7c
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 93057
+  packageName: Lighting Box 2 Next-Gen Lighting Solution
+  packageVersion: 2.9.9.3
+  assetPath: Assets/LightingBox2/Shaders/Terrain/Terrain_Layer_4.shader
+  uploadId: 748623

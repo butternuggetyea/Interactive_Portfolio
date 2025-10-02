@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8c5be9fd17b51b9439c88408fdf86338
+timeCreated: 1486627105
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 93057
+  packageName: Lighting Box 2 Next-Gen Lighting Solution
+  packageVersion: 2.9.9.3
+  assetPath: Assets/LightingBox2/Textures/Flares/Light.flare
+  uploadId: 748623

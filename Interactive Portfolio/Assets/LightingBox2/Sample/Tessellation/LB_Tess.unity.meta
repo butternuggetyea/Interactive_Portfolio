@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e397fb77bfdf01c49b00e599006dc9e5
+timeCreated: 1514831991
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 93057
+  packageName: Lighting Box 2 Next-Gen Lighting Solution
+  packageVersion: 2.9.9.3
+  assetPath: Assets/LightingBox2/Sample/Tessellation/LB_Tess.unity
+  uploadId: 748623

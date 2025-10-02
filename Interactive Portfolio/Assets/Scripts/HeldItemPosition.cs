@@ -44,7 +44,7 @@ public class HeldItemPosition : MonoBehaviour
     {
         item.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeAll;
         item.GetComponent<Collider>().enabled = false;
-        item.transform.position = transform.position;
+        item.transform.localPosition = transform.position;
         _infoText.gameObject.SetActive(true);
         _infoText.text = "Press Q to Drop or Hold Q to Throw";
         _heldItem = item; 

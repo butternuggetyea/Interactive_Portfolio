@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 18b91636de2ba3445913e4cf38528dc8
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 93057
+  packageName: Lighting Box 2 Next-Gen Lighting Solution
+  packageVersion: 2.9.9.3
+  assetPath: Assets/LightingBox2/Scripts/PostEffects/Effects/ImageEffects/Scripts/Triangles.cs
+  uploadId: 748623

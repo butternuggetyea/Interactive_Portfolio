@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: bdd8958ce51c55f4b9c234b9592a0fef
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 93057
+  packageName: Lighting Box 2 Next-Gen Lighting Solution
+  packageVersion: 2.9.9.3
+  assetPath: Assets/LightingBox2/Sample/Terrain/Profiles/Trigger_Profile.asset
+  uploadId: 748623

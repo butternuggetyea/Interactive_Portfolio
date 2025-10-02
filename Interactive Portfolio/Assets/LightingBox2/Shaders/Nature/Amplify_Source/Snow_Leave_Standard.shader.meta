@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: c09c9429a8d6e254b9fdebdce1dae008
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 93057
+  packageName: Lighting Box 2 Next-Gen Lighting Solution
+  packageVersion: 2.9.9.3
+  assetPath: Assets/LightingBox2/Shaders/Nature/Amplify_Source/Snow_Leave_Standard.shader
+  uploadId: 748623

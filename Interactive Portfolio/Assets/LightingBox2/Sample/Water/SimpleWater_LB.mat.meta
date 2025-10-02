@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 93a90cf10973d0a4c9767f381f58bd05
+timeCreated: 1514830969
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 93057
+  packageName: Lighting Box 2 Next-Gen Lighting Solution
+  packageVersion: 2.9.9.3
+  assetPath: Assets/LightingBox2/Sample/Water/SimpleWater_LB.mat
+  uploadId: 748623

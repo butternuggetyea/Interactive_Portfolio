@@ -183,7 +183,7 @@ public class PlayerMovement : MonoBehaviour
                 rb.AddForce(Vector3.down * slopeForce, ForceMode.Force);
         }
         else if (IsGrounded)
-        { 
+        {
             rb.AddForce(moveDirection * currentSpeed * 10f, ForceMode.Force);
         }
         else
@@ -330,3 +330,5 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 }
+
+

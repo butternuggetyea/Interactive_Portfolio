@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 3162b55d1bbbad245931ff291f6cb62f
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 93057
+  packageName: Lighting Box 2 Next-Gen Lighting Solution
+  packageVersion: 2.9.9.3
+  assetPath: Assets/LightingBox2/Shaders/Snow/Snow_Standard_AMplify__Source/Snow_Standard_Specular.shader
+  uploadId: 748623

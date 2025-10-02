@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 64f544f04cf87f744b64f3b28f18033a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4890085278179872738
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 93057
+  packageName: Lighting Box 2 Next-Gen Lighting Solution
+  packageVersion: 2.9.9.3
+  assetPath: Assets/LightingBox2/Sample/Tessellation/LB_TessSettings.lighting
+  uploadId: 748623

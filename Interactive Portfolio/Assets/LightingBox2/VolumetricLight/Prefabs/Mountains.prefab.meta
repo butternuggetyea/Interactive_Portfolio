@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d5335c8f26bfe754b960f5d390edcb98
+timeCreated: 1460397275
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 93057
+  packageName: Lighting Box 2 Next-Gen Lighting Solution
+  packageVersion: 2.9.9.3
+  assetPath: Assets/LightingBox2/VolumetricLight/Prefabs/Mountains.prefab
+  uploadId: 748623

@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: a2d75c08e7c83c546aba398cce4f6736
+timeCreated: 1505584288
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 93057
+  packageName: Lighting Box 2 Next-Gen Lighting Solution
+  packageVersion: 2.9.9.3
+  assetPath: Assets/LightingBox2/Scripts/LB_SettingsMenu.cs
+  uploadId: 748623

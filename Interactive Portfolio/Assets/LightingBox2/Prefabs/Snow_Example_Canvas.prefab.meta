@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: f71101eee7ed73344a019996f52420a0
+timeCreated: 1508431081
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 93057
+  packageName: Lighting Box 2 Next-Gen Lighting Solution
+  packageVersion: 2.9.9.3
+  assetPath: Assets/LightingBox2/Prefabs/Snow_Example_Canvas.prefab
+  uploadId: 748623

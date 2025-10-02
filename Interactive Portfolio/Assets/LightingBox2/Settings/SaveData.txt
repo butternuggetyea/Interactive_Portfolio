@@ -1,0 +1,5 @@
+LB_Terrains_Sample|Assets/LightingBox2/Sample/Terrain/Profiles/Lighting_Profile_LB_Terrains_Sample.asset
+LB_Tess|Assets/LightingBox2/Sample/Tessellation/Lighting_Profile_LB_Tess.assetwdawd|Assets/Scenes/Lighting_Profile_wdawd.asset
+awdwadwadwad|Assets/Scenes/Lighting_Profile_awdwadwadwad.asset
+wdawd|Assets/Scenes/Lighting_Profile_wdawd.asset
+awdawd|Assets/New folder/Lighting_Profile_awdawd.asset

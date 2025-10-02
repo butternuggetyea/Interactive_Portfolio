@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: f1531a9bd4087ff468de8de09f6ba126
+timeCreated: 1459178237
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 93057
+  packageName: Lighting Box 2 Next-Gen Lighting Solution
+  packageVersion: 2.9.9.3
+  assetPath: Assets/LightingBox2/VolumetricLight/Shaders/VolumetricLight.shader
+  uploadId: 748623

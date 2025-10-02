@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 0579c165252997643bdafc75ca588f7a
+timeCreated: 1513202956
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 93057
+  packageName: Lighting Box 2 Next-Gen Lighting Solution
+  packageVersion: 2.9.9.3
+  assetPath: Assets/LightingBox2/Shaders/Nature/Terrain_Grass_LB.shader
+  uploadId: 748623

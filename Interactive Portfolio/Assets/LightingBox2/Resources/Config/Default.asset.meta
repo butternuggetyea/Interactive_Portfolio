@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 86f3b307cd01d4d4dac45d4e3bd18e22
+timeCreated: 1497544422
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 93057
+  packageName: Lighting Box 2 Next-Gen Lighting Solution
+  packageVersion: 2.9.9.3
+  assetPath: Assets/LightingBox2/Resources/Config/Default.asset
+  uploadId: 748623

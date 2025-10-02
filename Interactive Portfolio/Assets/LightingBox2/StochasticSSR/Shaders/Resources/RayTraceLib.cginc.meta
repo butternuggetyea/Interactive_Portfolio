@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: b64ac496c4e02e24aa576f1563789255
+timeCreated: 1466621325
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 93057
+  packageName: Lighting Box 2 Next-Gen Lighting Solution
+  packageVersion: 2.9.9.3
+  assetPath: Assets/LightingBox2/StochasticSSR/Shaders/Resources/RayTraceLib.cginc
+  uploadId: 748623

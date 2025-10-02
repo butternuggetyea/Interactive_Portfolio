@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 70ff7d98b27dd54458e51a95f7984da3
+timeCreated: 1502320564
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: -1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 93057
+  packageName: Lighting Box 2 Next-Gen Lighting Solution
+  packageVersion: 2.9.9.3
+  assetPath: Assets/LightingBox2/Prefabs/BF1_Sun.flare
+  uploadId: 748623

@@ -24,6 +24,7 @@ public class HeldItemPosition : MonoBehaviour
     {
         if (_heldItem == null) { return; }
         _heldItem.transform.position = transform.position;
+        _heldItem.transform.rotation = transform.rotation;
         if (Input.GetKey(KeyCode.Q))
         {
             if (_powerSlider.gameObject.activeSelf == false) { _powerSlider.gameObject.SetActive(true); }

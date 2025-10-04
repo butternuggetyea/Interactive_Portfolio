@@ -25,7 +25,7 @@ public class NPCController : MonoBehaviour
 
     private void Update()
     {
-        if (_idleState == false && _agent.remainingDistance < 2) 
+        if (_idleState == false && _agent.remainingDistance < 1) 
         {
             StartCoroutine(IdleTime());
         }

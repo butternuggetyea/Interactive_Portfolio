@@ -6,13 +6,13 @@ using UnityEngine.ProBuilder.Shapes;
 
 partial struct CubeLogicSystem : ISystem
 {
-    [BurstCompile]
+ 
     public void OnCreate(ref SystemState state)
     {
         
     }
 
-    [BurstCompile]
+
     public void OnUpdate(ref SystemState state)
     {
         float deltaTime = SystemAPI.Time.DeltaTime;
@@ -48,7 +48,7 @@ partial struct CubeLogicSystem : ISystem
         }
     }
 
-    [BurstCompile]
+
     public void OnDestroy(ref SystemState state)
     {
         

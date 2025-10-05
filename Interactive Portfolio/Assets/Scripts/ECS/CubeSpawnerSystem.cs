@@ -9,7 +9,7 @@ using Random = UnityEngine.Random;
 using Debug = UnityEngine.Debug;
 partial struct CubeSpawnerSystem : ISystem
 {
-    [BurstCompile]
+  
     public void OnCreate(ref SystemState state)
     {
         
@@ -94,7 +94,6 @@ partial struct CubeSpawnerSystem : ISystem
         return new float3(x, y, z);
     }
 
-    [BurstCompile]
     public void OnDestroy(ref SystemState state)
     {
         

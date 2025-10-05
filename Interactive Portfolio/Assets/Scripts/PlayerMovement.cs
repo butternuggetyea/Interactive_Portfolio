@@ -170,19 +170,12 @@ public class PlayerMovement : MonoBehaviour
 
     private void MovePlayer()
     {
-        if (AgainstWall() && !exitingSlope) return;
+        
 
         Vector3 moveDirection = orientation.forward * VerticalInput + orientation.right * HorizontalInput;
         moveDirection = moveDirection.normalized;
 
-        if (OnSlope() && !exitingSlope)
-        {
-            rb.AddForce(GetSlopeMoveDirection(moveDirection) * currentSpeed * 20f, ForceMode.Force);
-
-            if (rb.linearVelocity.y > 0)
-                rb.AddForce(Vector3.down * slopeForce, ForceMode.Force);
-        }
-        else if (IsGrounded)
+        if (IsGrounded)
         {
             rb.AddForce(moveDirection * currentSpeed * 10f, ForceMode.Force);
         }

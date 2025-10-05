@@ -46,7 +46,7 @@ public class DoorLogic : InteractableObject
 
         for (int i = 0; i < 30; i++)
         {
-            Debug.Log("OpenDoor");
+
             gameObject.transform.Rotate(0, -3, 0);
             yield return new WaitForSecondsRealtime(.0120f);
         }
@@ -58,7 +58,7 @@ public class DoorLogic : InteractableObject
     {
         for (int i = 0; i < 30; i++)
         {
-            Debug.Log("CloseDoor");
+     
             gameObject.transform.Rotate(0, 3, 0);
             yield return new WaitForSecondsRealtime(.0120f);
         }

@@ -1,4 +1,6 @@
 using UnityEngine;
+using UnityEngine.UIElements;
+using Cursor = UnityEngine.Cursor;
 
 public class PlayerInteraction : MonoBehaviour
 {
@@ -6,11 +8,26 @@ public class PlayerInteraction : MonoBehaviour
     public LayerMask _interactLayer;
 
     public GameObject interactPanel;
-
+    public GameObject settingsPanel;
     private void Update()
     {
         GetInput();
         
+    }
+
+    private void FixedUpdate()
+    {
+
+        Vector3 rayOrigin = Camera.main.transform.position;
+        Vector3 rayDirection = Camera.main.transform.forward;
+        if (Physics.Raycast(rayOrigin, rayDirection, out RaycastHit hitInteractable, _interactDistance, _interactLayer))
+        {
+            interactPanel.SetActive(true);
+        }
+        else 
+        {
+            interactPanel.SetActive(false);
+        }
     }
 
     private void GetInput() 
@@ -19,7 +36,21 @@ public class PlayerInteraction : MonoBehaviour
         {
             CastRay();
         }
-       
+        if (Input.GetKeyDown(KeyCode.Tab)) 
+        {
+            settingsPanel.SetActive(!settingsPanel.activeSelf);
+            if (settingsPanel.activeSelf) 
+            {
+                Cursor.visible = true;
+                Cursor.lockState = CursorLockMode.Confined;
+            }
+            else
+            {
+                Cursor.visible = false;
+                Cursor.lockState = CursorLockMode.Locked;
+            }
+            
+        }
     }
 
     private void CastRay() 

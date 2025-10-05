@@ -18,6 +18,7 @@ partial struct CubeSpawnerSystem : ISystem
     }
 
 
+
     public void OnUpdate(ref SystemState state)
     {
         EntityCommandBuffer ecb = new EntityCommandBuffer(Allocator.Temp);
@@ -74,6 +75,7 @@ partial struct CubeSpawnerSystem : ISystem
         ecb.Dispose();
     }
 
+    [BurstCompile]
     private float3 GetRandomPositionInSphere(float3 center, float r)
     {
         // Generate random direction

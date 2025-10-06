@@ -31968,6 +31968,7 @@ GameObject:
   - component: {fileID: 8784863623329342558}
   - component: {fileID: 5640126857723833339}
   - component: {fileID: 7611424457111117617}
+  - component: {fileID: 8784863623329342559}
   m_Layer: 0
   m_Name: BasketBallHoopShortNet
   m_TagString: Untagged
@@ -32101,6 +32102,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2825347998301002473}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &8784863623329342559
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8260105599182421732}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 2351018576157736224, guid: acd03624f55fb3047a9c816159616f89, type: 3}
 --- !u!64 &8939052647113303049
 MeshCollider:
   m_ObjectHideFlags: 0

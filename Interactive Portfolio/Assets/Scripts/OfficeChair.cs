@@ -10,6 +10,14 @@ public class OfficeChair : InteractableObject
     public GameObject _slider;
     public GameObject _Retical;
 
+    public static OfficeChair Instance;
+
+    public bool sitting = false;   
+    private void Awake()
+    {
+        Instance = this;
+    }
+
     public override void Interact()
     {
         SitDown();
@@ -21,6 +29,7 @@ public class OfficeChair : InteractableObject
     {
         _infoText.gameObject.SetActive(true);
         _infoText.text = "Press Q to stand up";
+        sitting = true;
         SetUi();
       _player = PlayerMovement.animator.gameObject;
         PlayerCameraMovement.playerCamera.DisableCamera();
@@ -36,13 +45,13 @@ public class OfficeChair : InteractableObject
         if (_Retical.gameObject.activeSelf)
         {
             _Retical.SetActive(false);
-            _slider.SetActive(true);
+            //_slider.SetActive(true);
 
         }
         else 
         {
             _Retical.SetActive(true);
-            _slider.SetActive(false);
+            //_slider.SetActive(false);
         }
     }
 
@@ -56,6 +65,7 @@ public class OfficeChair : InteractableObject
         if (_player == null) { return; }
         if (Input.GetKeyDown(KeyCode.Q))
         {
+            sitting = false;
             SetUi();
             _infoText.gameObject.SetActive(false);
             PlayerMovement.playerMovement.EnableMovement();

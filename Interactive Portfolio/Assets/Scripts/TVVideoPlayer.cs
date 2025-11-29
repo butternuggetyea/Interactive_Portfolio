@@ -12,13 +12,15 @@ public class TVVideoPlayer : MonoBehaviour
     private void Awake()
     {
         _videoPlayer = GetComponent<VideoPlayer>();
-        _clipIndex = 0;
+        _videoPlayer.url = System.IO.Path.Combine(Application.streamingAssetsPath, "VideoClip.mp4");
+        _videoPlayer.Play();
     }
 
     private void Start()
     {
-        _videoPlayer.clip = _clips[_clipIndex];
+       // _videoPlayer.clip = _clips[_clipIndex];
     }
+    /*
 
     private void Update()
     {
@@ -34,5 +36,5 @@ public class TVVideoPlayer : MonoBehaviour
             _videoPlayer.clip = _clips[_clipIndex];
         }
     }
-
+    */
 }

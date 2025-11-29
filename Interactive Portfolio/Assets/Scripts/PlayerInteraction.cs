@@ -46,8 +46,11 @@ public class PlayerInteraction : MonoBehaviour
             }
             else
             {
-                Cursor.visible = false;
-                Cursor.lockState = CursorLockMode.Locked;
+                if (OfficeChair.Instance.sitting == false)
+                {
+                    Cursor.visible = false;
+                    Cursor.lockState = CursorLockMode.Locked;
+                }
             }
             
         }

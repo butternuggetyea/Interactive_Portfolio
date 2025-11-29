@@ -81,7 +81,7 @@ public class PlayerCameraMovement : MonoBehaviour
         mouseSensitivity = input;
     }
 
-    [BurstCompile]
+
 
     private void FixedUpdate()
     {
